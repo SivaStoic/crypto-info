@@ -1,0 +1,40 @@
+.navbar{
+    background-color:rgb(27, 20, 103);
+    
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.navbar> input{
+    width: 360px;
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.navbar>h2{
+    color: white;
+}
+
+@media screen and (max-width:768px){
+    .navbar{
+        display: flex;
+        justify-content: space-evenly;
+    }
+   .navbar> input{
+        width: 160px;
+        font-size: 13px;
+        padding: 5px;
+        margin-right: 12px;
+    }
+    .navbar>h2{
+        margin-left: 6px;
+        font-size: 18px;
+    }
+}
